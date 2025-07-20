@@ -1,0 +1,286 @@
+<!--
+   index.html
+   
+   Copyright 2025  <vardhan@raspberrypi>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>MES</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.38" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<script src="https://unpkg.com/scrollreveal"></script>
+<!--
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+-->
+    <!-- jQuery (must come first) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Owl Carousel JS (must come after jQuery) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Owl Carousel CSS (optional, for styling) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+	
+</head>
+
+<body>	
+  <div id="container">
+	<header>
+    	<div class="nav-menu" id="navbar">
+            <ul class="nav_menu_list">
+                <li class="nav_list" id="gp">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#founder" class="nav-link">Founder</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#events" class="nav-link">Events</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="./routes/facilites.html" class="nav-link">Facilities</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list" id="pg">
+                    <a href="#contact" class="nav-link">Contact Us </a>
+                    <div class="circle"></div>
+                </li>
+                <li class="menu-item" id="mes"><h2>MES</h2></li>
+                <i class="fa-solid fa-bars"  id="icon" onclick="openMobileMenu()"></i>
+            </ul>
+<!--
+            <div id="hr-bars">
+                 <div id="empty-box"></div>
+                 <i class="fa-solid fa-bars"></i>
+            </div>
+-->
+            
+            </div>
+            <div class="nav-m">
+            <ul class="sidebar"id="sb">
+                <li class="menu-item">
+                    <a href="#home" class="link" onclick="closeMobileMenu()">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="menu-item">
+                    <a href="#founder" class="link" onclick="closeMobileMenu()">Founder</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="menu-item">
+                    <a href="#events" class="link" onclick="closeMobileMenu()">Events</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="menu-item">
+                    <a href="./routes/facilites.html" class="link" onclick="closeMobileMenu()">Facilities</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="menu-item">
+                    <a href="#testimonials" class="link" onclick="closeMobileMenu()">Testimonials</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="menu-item">
+                    <a href="#contact" class="link" onclick="closeMobileMenu()">Contact Us </a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+            </div>
+            </header>
+        <main>
+		<section id="home" class="section">     
+        <div id="con">
+<!--
+        <img src="logo.jpg" alt="logo" class="bouncing-img">
+-->
+        <div class="text-area">
+			<div id="typewritter"></div>
+        <p id="history">         Modern English School, Nipani was established in the year 1972, Modern English School in Nipani, Karnataka, stands as one of the most 
+         respected and long-standing educational institutions in the region. Founded under guidance and management of The Maratha Mandal, 
+         Belgaum prestigious educational trust known for its commitment to quality education the school was created with a clear mission: 
+         to nurture young minds and provide holistic, value-based learning. Modern English School began its journey at a time when quality
+         English-medium education was limited in the Nipani area. Recognizing this need, the Maratha Mandal took a pioneering step by 
+         setting up a school that would not only focus on academic excellence but also build strong moral and cultural values in its 
+         students. From its humble beginnings, the school has grown steadily, both in reputation and infrastructure. Today, it offers 
+         education from nursery to 10th standard and is affiliated with the Karnataka State Board. It continues to serve generations of 
+         students, creating a legacy of well-rounded individuals who have gone on to succeed in various walks of life. Located in the 
+         heart of Nipani town, Modern English School provides a well-balanced curriculum delivered by experienced and dedicated faculty. 
+         It emphasizes co-curricular activities, sports, and character-building programs alongside academics, fostering the all-round 
+         development of every student. With nearly five decades of excellence in education, Modern English School remains a pillar of 
+         learning in the community. Its alumni proudly carry forward the values and knowledge imparted by the institution, making a 
+         positive impact both locally and globally.
+
+    <b>Our Vision:</b>
+                 To create a nurturing environment where students are empowered with knowledge, skills, and values to become
+                 responsible and successful citizens.
+
+    <b>Our Mission:</b>
+                 To deliver quality education that blends academic rigor with ethical values, preparing students to face the
+                 future with confidence and integrity.</p>
+           </div>
+           <img src="logos.jpeg" alt="logo" class="bouncing-img">
+           
+      </div>
+     </section>
+     
+        <section id="founder" class="section">
+		  <h2 class="wo" id="f">Our Pillar's</h2>
+		<div id="info-cards">  
+		  <div id="c-f">
+		   <img src="founder.jpg" alt="image of the founder" class="img-founder" id="i-f">
+		   <h2 id="name-founder" class="name">Shri Nathajirao G. Halgekar</h2>
+		   <p id="info-founder">Nathajirao G. Halgekar was a reformer who promoted education and uplifted rural communities in karnataka</p>
+		  </div>
+		  
+		  <div id="c-p">
+		   <img src="president.png" alt="image of the president" class="img-president" id="i-p">
+		   <h2 id="name-president" class="name">Dr. Rajashree
+Nagarju</h2>
+		   <p id="info-president">Dr. Rajashree Nagarju is an educator and leader dedicated to women's empowerment and rural development</p>
+		  </div>
+		 </div>
+        </section>
+        
+        <section id="events" class="section">
+        <h2 class="wo">Events</h2>
+            <div class="card cardf" id="fp">
+            <a href="event.html"><img src="eventsmes/rakshabandhan/firstphoto.JPG" id="rkb-img" class="rkb"></a>
+            <h3 id="event-text">Events & Festivals</h3>
+            <p id="cli">Click for more</p>
+            </div>
+        </section>
+        
+         <section id="testimonials" class="section">
+		  <h2 class="wo" id="title-oa">Our Alumini's</h2> 
+          <div id="allbox" class="owl-carousel owl-carousel1 owl-theme">
+			  <div class="sbox">
+				   <img src="tanu.jpg" alt="image of the person" class="person-i" id="tanu">
+				   <p id="name-p">Tanushri Chougale</p>
+				   <p id="uni-n">Engneering Student at PES</p>
+				   <p id="inf">University</p>
+			       <p class="tt">I'm Tanushri Chougale, a curious and creative student who found the perfect 
+			       place to grow at Modern English School, Nippani. This school helped me to become more confident, 
+			       expressive, and responsible. I'll always be grateful for the memories, the support 
+			       from teachers, and the lessons that shaped who I am today.</p>
+			  </div>
+              <div class="sbox">
+				   <img src="somu.jpg" alt="image of the person" class="person-i" id="somu">
+				   <p id="name-p">Somesh Bhosale</p>
+				   <p id="uni-n">Software Enginneer</p>
+				   <p id="inf"></p>
+			       <p class="tt">Modern English School, Nippani played a key role in shaping my future. 
+			       The support and encouragement from my teachers built the foundation for my journey 
+			       into software engineering. The values and discipline I learned there still guide me 
+			       today. I'm truly grateful to the school for everything it gave me.</p>
+			  </div>
+			  <div class="sbox">
+				   <img src="tanu.jpg" alt="image of the person" class="person-i" id="tanu">
+				   <p id="name-p">Somesh Bhosale 3</p>
+				   <p id="uni-n">Engneering Student at PES</p>
+				   <p id="inf">University</p>
+			       <p class="tt">Modern English School, Nippani played a key role in shaping my future. 
+			       The support and encouragement from my teachers built the foundation for my journey 
+			       into software engineering. The values and discipline I learned there still guide me 
+			       today. I'm truly grateful to the school for everything it gave me.</p>
+			  </div>
+               <div class="sbox">
+				   <img src="tanu.jpg" alt="image of the person" class="person-i" id="tanu">
+				   <p id="name-p">Somesh Bhosale 4</p>
+				   <p id="uni-n">Engneering Student at PES</p>
+				   <p id="inf">University</p>
+			       <p class="tt">Modern English School, Nippani played a key role in shaping my future. 
+			       The support and encouragement from my teachers built the foundation for my journey 
+			       into software engineering. The values and discipline I learned there still guide me 
+			       today. I'm truly grateful to the school for everything it gave me.</p>
+			  </div>
+			  <div class="sbox">
+				   <img src="tanu.jpg" alt="image of the person" class="person-i" id="tanu">
+				   <p id="name-p">Somesh Bhosale 5</p>
+				   <p id="uni-n">Engneering Student at PES</p>
+				   <p id="inf">University</p>
+			       <p class="tt">Modern English School, Nippani played a key role in shaping my future. 
+			       The support and encouragement from my teachers built the foundation for my journey 
+			       into software engineering. The values and discipline I learned there still guide me 
+			       today. I'm truly grateful to the school for everything it gave me.</p>
+			  </div>
+			  <div class="sbox">
+				   <img src="tanu.jpg" alt="image of the person" class="person-i" id="tanu">
+				   <p id="name-p">Somesh Bhosale 6</p>
+				   <p id="uni-n">Engneering Student at PES</p>
+				   <p id="inf">University</p>
+			       <p class="tt">Modern English School, Nippani played a key role in shaping my future. 
+			       The support and encouragement from my teachers built the foundation for my journey 
+			       into software engineering. The values and discipline I learned there still guide me 
+			       today. I'm truly grateful to the school for everything it gave me.</p>
+			  </div>
+          </div>
+          <div id="custom-dots-container"></div>
+        </section>
+        
+        <section id="contact" class="section">
+        <div class="wo">
+		<h2 id="title-oa">Get in touch</h2>
+        <h5>Contact Us Here</h5>
+        </div>
+        <div id="map-contact">
+			<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.624754400445!2d74.38064167768604!3d16.3930668843344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0f21508b637b5%3A0x67f8d51cd3e3db23!2sMaratha%20mandal%20Belgaum&#39;s%20Modern%20English%20School%20Nipani!5e0!3m2!1sen!2sin!4v1750338173747!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div id="contact-info">
+				<h3>MMB'S Modern English School, Nippani-591237</h3>
+                            <p><b>Phone: 083382 20737</b></p>
+                            <p><b>Email:</b></p>
+                            <pre id="email"><b>mmbsmodernenglish
+schoolnipani@gmail
+.com</b></pre>
+                            <h3>Follow Us</h3>
+                            <div id="icons">
+							   <a href="https://www.instagram.com/mes_nipani?igsh=MW5pMW1kMHQxNmp0eQ==" target="_blank" title="Follow us on Instagram"><i class="fa-brands fa-instagram"></i></a>
+                               <a href="https://www.facebook.com/share/1L3HjrSaGE/" target="_blank" title="Follow us on Facebook"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+			</div>
+        </div>
+       </section>
+    </main>
+
+    <footer>
+        <div class="bottom-footer">
+            <p><b>To contact Devloper</b></p>
+            <p>&copy; Devloped by <a href="https://www.linkedin.com/in/vardhan-chougale-505032375?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2tBOdaV5TP26gcTUNYn5kQ%3D%3D"><b id="bl">Vardhan Chougale</b></a> </p>
+        </div>
+    </footer>
+       </div>
+       
+        <script src="app.js"></script>
+</body>
+
+</html>
