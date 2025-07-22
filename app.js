@@ -140,6 +140,7 @@ const srLeft = ScrollReveal({
 		
 // Apply reveal effect to your element
 srLeft.reveal('#history', { delay: 200 });
+srLeft.reveal('#history2', { delay: 200 });
 srLeft.reveal('#c-f', { delay: 200 });
 srLeft.reveal('#map', { delay: 200 });
 srLeft.reveal('.cardf',{delay: 200});
@@ -159,12 +160,21 @@ srRight.reveal('.right',{delay: 200});
 
 const srTop = ScrollReveal({
 origin: 'top',
-distance: '20px',
+distance: '80px',
 duration: 2000,
 reset: true
 })
 
 srTop.reveal('.top',{delay: 200});
+
+const srBottom = ScrollReveal({
+origin: 'bottom',
+distance: '30px',
+duration: 2000,
+reset: true
+})
+
+srBottom.reveal('.bottom',{delay: 200});
 
 const srRightt = ScrollReveal({
 origin: 'right',
