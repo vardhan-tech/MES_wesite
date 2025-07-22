@@ -66,7 +66,7 @@ align-items: center;
 
 .nav-link {
  text-decoration: none;
- color: #808080;
+ color: #C0C0C0;
 }
 
 #gp {
@@ -167,17 +167,17 @@ align-items: center;
 
 .link {
  text-decoration: none;
- color: #808080;
+ color: #C0C0C0;
 }
 
 #mes{
   display: none;
-  color: #808080;
+  color: #C0C0C0;
 }
 
 #mes2 {
  display: none;
- color: #808080; 
+ color: #C0C0C0; 
 }
 
 .active-link {
@@ -249,6 +249,15 @@ margin-left: 40px;
 font-weight: normal;
 }
 
+#history2 {
+display: none;
+flex: 1;
+flex-direction: column;
+gap: 10px;
+margin-top: 20px;
+font-weight: normal;
+}
+
 p {
 color:#4d4d4d;
 }
@@ -289,7 +298,7 @@ flex-shrink: 0;
 }
 
 #founder{
-margin-top: 450px;
+margin-top: 200px;
 scroll-margin-top: 90px;
 text-align: center;
 }
@@ -363,8 +372,7 @@ margin-top: 20px;
 
 #events {
   height: 580px;
-  margin-top: 450px;
-  margin-bottom: 450px;
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -375,6 +383,7 @@ margin-top: 20px;
 
 .card{
 background-color: #f5f5f5;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.328);
 height: 500px;
 width: 750px;
 display: flex;
@@ -441,9 +450,61 @@ height: 500px;
   height: 9500px;
 } */
 
+#faci-main {
+margin-top: 150PX;
+margin-bottom:150px ;
+}
+
+#faci-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+#faci-cardcont {
+  width: 100%;
+  height: 2500px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.two-cardcont{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.faci-card {
+margin-top: 60px;
+height: 500px;
+width: 450px;
+border-radius: 10%;
+background-color: #f5f5f5; 
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.328);;
+display: flex;
+flex-direction: column; 
+justify-content: start;
+align-items: center;
+align-content: center;
+}
+
+.para-faci, .heading-faci {
+ margin-top: 50px;
+ margin-left: 15px;
+ margin-right: 15px;
+}
+
 #testimonials {
 scroll-margin-top: 90px;
-margin-top: 450px;
+margin-top: 200px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -551,6 +612,10 @@ object-fit: cover;
 height: 120px;
 }
 
+#tanu {
+  margin-top: 40px;
+}
+
 #somu {
   object-fit: cover;
 }
@@ -577,6 +642,11 @@ margin-left: 20px;
  width: 6px;
 }
 
+.review-text::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 6px;
+}
+
 .wo {
   display: flex;
   flex-direction: column;
@@ -588,7 +658,7 @@ margin-left: 20px;
 #contact {
 scroll-margin-top: 90px;
 height: 550px;
-margin-top: 450px;
+margin-top: 200px;
 margin-bottom: 130px;
 display: flex;
 flex-direction: column; 
@@ -671,7 +741,7 @@ visibility: visible;
 position: fixed;
 top: 20px;
 right: 20px;
-color: #808080;
+color: #C0C0C0;
 }
 
 #mes{
@@ -679,7 +749,7 @@ color: #808080;
   position: fixed;
   top: 15px;
   left: 16px;
-  color: #808080;
+  color: #C0C0C0;
 }
 
 #mes2 {
@@ -687,7 +757,7 @@ color: #808080;
  position: fixed;
  top: 10px;
  left: 16px;
- color: #808080;
+ color: #C0C0C0;
  transition: all 0.3s ease;
 }
 
@@ -814,6 +884,27 @@ width: 668px;
 width: 668px;
 }
 
+/* #faci-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+ */
+#faci-cardcont {
+  height: 3700px;
+}
+
+.two-cardcont{
+  flex-direction: column;
+}
+
+.faci-card {
+height: 400px;
+width: 300px;
+}
+
 #allbox {
 height: 450px;
 width: 350px;
@@ -930,6 +1021,14 @@ font-size: 32px;
 margin-left: 0px;
 } 
 
+#history {
+display: none;
+}
+
+#history2 {
+display: flex;
+}
+
 .name {
 font-size: 20px;
 }
@@ -972,8 +1071,7 @@ margin-bottom: 10px;
 
 #events {
   height: 360px;
-  margin-top: 450px;
-  margin-bottom: 450px;
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1040,6 +1138,16 @@ width: 280px;
   height: auto;
   object-fit: contain;
 } */
+
+#faci-cardcont {
+  height: 3400px;
+}
+
+
+.faci-card {
+height: 350px;
+width: 280px;
+}
 
 #allbox {
 height: 450px;
